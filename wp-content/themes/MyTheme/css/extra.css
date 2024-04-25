@@ -1,0 +1,52 @@
+
+/* for dropdown if ever may submenu */
+
+header .top-bar li {
+    position: relative;
+}
+
+header .top-bar li .sub-menu {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    z-index: 999;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    border-radius: .5rem;
+}
+
+header .top-bar li .sub-menu a {
+    color: #333;
+    padding: .25rem;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+header .top-bar li .sub-menu a:hover {
+    text-decoration: underline;
+}
+
+
+/* the ">" means targeting the first level of a class */
+
+header .top-bar > .menu-item-has-children:hover > .sub-menu { 
+    display: block;
+}
+
+header .top-bar .menu-item-has-children .sub-menu > .menu-item-has-children:hover .sub-menu {
+    display: block;
+}
+
+
+/* if may submenu ung submenu */
+
+header .top-bar .sub-menu li .sub-menu {
+    left: 100%;
+    top: 0;
+}

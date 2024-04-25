@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+header {
+    background: #FAFAFA;
+    width: 100%;
+    height: 150px;
+ 
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+p {
+    letter-spacing: 0.030rem;
+}
+
+.landing-page-wrap {
+    background: #f4f4f4;
+}
+
+.arrow-icon {
+    cursor: pointer;
+}
+/*      navigation bar      */
+
+.navbar-brand {
+    letter-spacing: 0.3rem;
+    font-family: "Poppins";
+} 
+
+.navbar-brand:hover {
+    cursor: pointer;
+    color: #333;
+}
+
+.navbar-collapse {
+    transition: height 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link {  
+    color: #333; 
+    padding: .25rem 1.5rem; 
+    font-family: "Poppins";
+}
+
+/* .navbar-nav .nav-item:first-child .nav-link {
+    padding-left:0 ;
+}
+.navbar-nav .nav-item:last-child .nav-link {
+    padding-right:0 ;
+} */
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #555; 
+}
+
+/*      hero banner      */
+
+.hello {
+    font-family: 'Raleway', Courier, monospace
+}
+p {
+    font-family: 'Raleway', Courier, monospace
+}
+
+h1, .btn {
+    font-family: 'Poppins', Courier, monospace
+ 
+}
+
+.title {
+    font-family: "Poppins";
+    letter-spacing: 0.3rem;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+.icon-img {
+    width: 50px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    margin-bottom: 20px; /* Add space between icon and text */
+}
+
+hr {
+    border-top: 2px solid rgb(255, 255, 255) !important;
+    width: 45px;
+    margin: 0 auto;
+}
+
+.hr-blue {
+    border-top: 2px solid #0D6EFD !important;
+    width: 45px;
+    margin: 0 auto;
+}
+ 
+.card-group {
+    margin-bottom: 5rem;
+}
+
+/* portfolio */
+
+.carousel-img {
+    width: 400px;
+    height: 400px;
+}
+
+.branding-text{
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    top: 25%;
+    margin-left: auto; 
+    margin-right: auto; 
+ 
+    z-index: 999;
+}
+
+.blue-portfolio {
+    position: relative;
+   
+}
+
+/* .carousel-item {
+    display: flex;
+    flex-direction: row;
+} */
+
+.carousel-img {
+    object-fit: cover;
+    object-position: center;
+}
+
+/* testimonials */
+
+.id-picture {
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.contact-section {
+    background: #9F9F9F;
+}
+
+.form-control {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0%;    
+    
+}
+
+input {
+    outline-style: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    color: #f4f4f4 !important;
+    caret-color: white;
+    background-color: transparent !important;
+
+}
+
+
+label {
+    background-color: transparent;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: small;
+    letter-spacing: 0.03rem;
+    padding-left: 10px;
+    
+}
+
+.submit-btn {
+    padding: 0.75rem 5rem;
+
+    border-radius: 0%;
+    letter-spacing: 0.3rem;
+    font-size: small;
+  
+}
+
+/* footer */
+
+.footer-p {
+    font-family: "Poppins";
+    font-size: 14px;
+    padding-bottom: 2rem;
+    color: #919191 !important;
+}
