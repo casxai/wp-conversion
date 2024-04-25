@@ -33,3 +33,50 @@
 </body>
 
 </html>
+
+<script>
+    // const swiper = new Swiper(".mySwiper", {
+
+    //     loop: true,
+    //     slidesPerView: 3,
+    //     grid: {
+    //         rows: 2,
+    //     },
+    //     spaceBetween: 30,
+    //     pagination: {
+    //         el: ".swiper-pagination",
+    //         clickable: true,
+    //         type: "bullets",
+    //     }
+
+    //     navigation: {
+    //         nextEl: '.arrow-icon-next',
+    //         prevEl: '.arrow-icon-prev',
+    //     }
+    // });
+
+
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        grid: {
+            rows: 2,
+        },
+        spaceBetween: 30,
+        navigation: {
+            nextEl: '.arrow-icon-next',
+            prevEl: '.arrow-icon-prev',
+        }
+    });
+
+    var swiper = new Swiper(".mySwiper1", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+
+        navigation: {
+            nextEl: '.arrow-icon-next',
+            prevEl: '.arrow-icon-prev',
+        }
+    });
+
+</script>

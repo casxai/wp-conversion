@@ -81,48 +81,58 @@
 
 <!-- Portfolio -->
 <!-- make it carousel -->
-<section class="landing-page-wrap">
-    <div class="container text-center py-1 py-md-5 py-lg-5">
-
-        <h2 class="fw-normal title">PORTFOLIO</h2>
-
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-
-            <div class="col">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio_5.png" class="carousel-img">
-            </div>
-
-            <div class="col">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio_4.png" class="carousel-img">
-            </div>
-
-            <div class="col">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio_3.png" class="carousel-img">
-            </div>
-
-            <div class="col">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio_2.png" class="carousel-img">
-            </div>
-
-            <div class="col">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio_1.png" class="carousel-img">
-            </div>
-
-            <div class="col blue-portfolio">
-                <div class="branding-text p-5">
+<section class="portfolio text-center">
+    <h2 class="fw-normal title pt-5">PORTFOLIO</h2>
+    <div
+        class="swiper mySwiper swiper-initialized swiper-horizontal swiper-grid swiper-grid-column swiper-backface-hidden">
+        <div class="swiper-wrapper" id="swiper-wrapper-e10d427795362d2b5" aria-live="polite"
+            style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px); transition-delay: 0ms;">
+            <div class="swiper-slide swiper-slide-active" role="group"><img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_5.png" class="carousel-img"></div>
+            <div class="swiper-slide" role="group"><img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_4.png" class="carousel-img"></div>
+            <div class="swiper-slide swiper-slide-next" role="group"> <img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_3.png" class="carousel-img"></div>
+            <div class="swiper-slide" role="group"><img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_2.png" class="carousel-img"></div>
+            <div class="swiper-slide" role="group"><img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_1.png" class="carousel-img"></div>
+            <div class="swiper-slide blue-portfolio">
+                <div class="branding-text p-5 ">
                     <p class="card-text text-white ">Branding</p>
                     <h5 class="card-title text-white mb-4">Home Decoration</h5>
                     <hr>
                 </div>
                 <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio_6.png" class="carousel-img">
             </div>
+            <div class="swiper-slide blue-portfolio">
+                <div class="branding-text p-5 ">
+                    <p class="card-text text-white ">Branding</p>
+                    <h5 class="card-title text-white mb-4">Home Decoration</h5>
+                    <hr>
+                </div>
+                <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio_6.png" class="carousel-img">
+            </div>
+            <div class="swiper-slide" role="group"><img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_1.png" class="carousel-img"></div>
+            <div class="swiper-slide" role="group"><img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_2.png" class="carousel-img"></div>
+            <div class="swiper-slide" role="group"><img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_3.png" class="carousel-img"></div>
+            <div class="swiper-slide" role="group"><img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_4.png" class="carousel-img"></div>
+            <div class="swiper-slide" role="group"><img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_5.png" class="carousel-img"></div>
+
 
         </div>
-        <div class="flex col mt-5 mb-3">
-            <img class="mx-3 arrow-icon" src="<?php echo get_template_directory_uri(); ?>/images/left_icon.png" alt="">
-            <img class="mx-3 arrow-icon" src="<?php echo get_template_directory_uri(); ?>/images/right_icon.png" alt="">
-        </div>
     </div>
+    <div class="mt-5 mb-6 text-center">
+        <img class="mx-3 arrow-icon-prev" src="<?php echo get_template_directory_uri(); ?>/images/left_icon.png" alt="">
+        <img class="mx-3 arrow-icon-next" src="<?php echo get_template_directory_uri(); ?>/images/right_icon.png"
+            alt="">
+    </div>
+
 </section>
 
 <!-- Call to action -->
@@ -147,35 +157,66 @@
 <!-- make it carousel -->
 <section class="landing-page-wrap">
     <div class="container">
+
         <div class="px-4 py-5 my-5 text-center">
-
             <h1 class="display-5 fw-light">What clients<br>Feedback about me</h1>
+            <div class="mySwiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="d-block mx-auto mt-5 mb-3 rounded-circle id-picture"
+                            src="<?php echo get_template_directory_uri(); ?>/images/id.png" alt="">
+                        <div>
+                            <h5>ALLEN BELL</h5>
+                            <p class=" fw-semibold text-black-50">UX Designer</p>
+                        </div>
+                        <div class="col-lg-6 mx-auto w-75">
+                            <p class="my-5 fw-semibold">Fleeing from the Cylon tyranny the last Battlestar – Galactica -
+                                leads a
+                                rag-tag
+                                fugitive fleet on a lonely quest - a shining planet known as Earth? Texas tea.Its
+                                mission - to
+                                explore
+                                strange new worlds to seek out new life and new civilizations to boldly go where no man
+                                has gone
+                                before.
+                                Doin' it our way.</p>
 
-            <img class="d-block mx-auto mt-5 mb-3 rounded-circle id-picture"
-                src="<?php echo get_template_directory_uri(); ?>/images/id.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="d-block mx-auto mt-5 mb-3 rounded-circle id-picture"
+                            src="<?php echo get_template_directory_uri(); ?>/images/id.png" alt="">
+                        <div>
+                            <h5>JENNIE KIM</h5>
+                            <p class=" fw-semibold text-black-50">UX Designer</p>
+                        </div>
+                        <div class="col-lg-6 mx-auto w-75">
+                            <p class="my-5 fw-semibold">Fleeing from the Cylon tyranny the last Battlestar – Galactica -
+                                leads a
+                                rag-tag
+                                fugitive fleet on a lonely quest - a shining planet known as Earth? Texas tea.Its
+                                mission - to
+                                explore
+                                strange new worlds to seek out new life and new civilizations to boldly go where no man
+                                has gone
+                                before.
+                                Doin' it our way.</p>
 
-            <div>
-                <h5>ALLEN BELL</h5>
-                <p class=" fw-semibold text-black-50">UX Designer</p>
-            </div>
-
-            <div class="col-lg-6 mx-auto w-75">
-                <p class="my-5 fw-semibold">Fleeing from the Cylon tyranny the last Battlestar – Galactica - leads a
-                    rag-tag
-                    fugitive fleet on a lonely quest - a shining planet known as Earth? Texas tea.Its mission - to
-                    explore
-                    strange new worlds to seek out new life and new civilizations to boldly go where no man has gone
-                    before.
-                    Doin' it our way.</p>
-                <div class="flex col">
-                    <img class="mx-3 arrow-icon" src="<?php echo get_template_directory_uri(); ?>/images/left_icon.png"
-                        alt="">
-                    <img class="mx-3 arrow-icon" src="<?php echo get_template_directory_uri(); ?>/images/right_icon.png"
-                        alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="text-center">
+                <img class="mx-3 arrow-icon-prev" src="<?php echo get_template_directory_uri(); ?>/images/left_icon.png"
+                    alt="">
+                <img class="mx-3 arrow-icon-next"
+                    src="<?php echo get_template_directory_uri(); ?>/images/right_icon.png" alt="">
+            </div>
         </div>
+
+
     </div>
+
 </section>
 
 
@@ -216,8 +257,6 @@
     </div>
 </section>
 
-
-
-
+<!-- ---------------------------------------------------------------------- -->
 
 <?php get_footer(); ?>
