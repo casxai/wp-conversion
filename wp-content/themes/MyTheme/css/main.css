@@ -310,7 +310,7 @@ label {
 }
 
 @media (max-width: 767.98px) {
-    .navbar-collapse {
+    .navbar-collapse-header {
         position: fixed;
         background: #FAFAFA;
         top: 0;
@@ -320,14 +320,14 @@ label {
         padding-top: 120px;
         transition: 0.5s;
     }
-    .navbar-toggler {
+    .navbar-toggler-header {
         position: fixed;
         top: 50px;
         right: 20px;
         z-index: 1; /* Ensure the toggler is above the collapsed menu */
     }
 
-    .navbar-nav .nav-item .nav-link  {
+    .navbar-nav-header .nav-item .nav-link  {
         /* display: block; */
         margin: 25px 30px;
         text-align: center;
