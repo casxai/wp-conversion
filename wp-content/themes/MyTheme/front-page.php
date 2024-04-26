@@ -12,8 +12,8 @@
 <?php get_header(); ?>
 
 <!-- Hero Banner -->
-<section class="landing-page-wrap">
-    <div class="container">
+<section class="landing-page-wrap hero">
+    <div class="container ">
         <div class="row align-items-center py-5 pb-5">
             <div class="col-9 col-sm- col-lg-6 mb-5 mb-lg-0 mb-md-5 container">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/hero_banner.png"
@@ -38,11 +38,11 @@
 </section>
 
 <!-- Services -->
-<div class="container text-center pt-5 pb-0 py-md-5 py-lg-5">
+<div class="container text-center py-lg-5 py-md-5">
 
-    <h2 class="fw-normal title m-0 m-md-5">SERVICES</h2>
+    <h2 class="fw-normal title">SERVICES</h2>
 
-    <div class="card-group gap-5">
+    <div class="card-group gap-5 pb-5">
 
         <div class="card rounded-3 border-0">
             <div class="card-body p-5">
@@ -80,9 +80,8 @@
 
 
 <!-- Portfolio -->
-<!-- make it carousel -->
-<section class="portfolio text-center">
-    <h2 class="fw-normal title pt-5">PORTFOLIO</h2>
+<section class="portfolio t-portfolio text-center py-5">
+    <h2 class="fw-normal title">PORTFOLIO</h2>
     <div
         class="swiper mySwiper swiper-initialized swiper-horizontal swiper-grid swiper-grid-column swiper-backface-hidden">
         <div class="swiper-wrapper" id="swiper-wrapper-e10d427795362d2b5" aria-live="polite"
@@ -127,7 +126,60 @@
 
         </div>
     </div>
-    <div class="mt-5 mb-6 text-center">
+    <div class="mt-5 mb-6 arrow-icons arrow-bg text-center">
+        <img class="mx-3 arrow-icon-prev" src="<?php echo get_template_directory_uri(); ?>/images/left_icon.png" alt="">
+        <img class="mx-3 arrow-icon-next" src="<?php echo get_template_directory_uri(); ?>/images/right_icon.png"
+            alt="">
+    </div>
+
+</section>
+
+<section class="portfolio m-portfolio text-center">
+    <h2 class="fw-normal title mt-0 mb-5">PORTFOLIO</h2>
+    <div class="swiper mySwiper1 swiper-initialized">
+        <div class="swiper-wrapper" id="swiper-wrapper-e10d427795362d2b5" aria-live="polite">
+            <div class="swiper-slide blue-portfolio">
+                <div class="branding-text p-5 ">
+                    <p class="card-text text-white ">Branding</p>
+                    <h5 class="card-title text-white mb-4">Home Decoration</h5>
+                    <hr>
+                </div>
+                <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio_6.png" class="carousel-img">
+            </div>
+            <div class="swiper-slide swiper-slide-active" role="group"><img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_5.png" class="carousel-img"></div>
+            <div class="swiper-slide" role="group"><img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_4.png" class="carousel-img"></div>
+            <div class="swiper-slide swiper-slide-next" role="group"> <img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_3.png" class="carousel-img"></div>
+            <div class="swiper-slide" role="group"><img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_2.png" class="carousel-img"></div>
+            <div class="swiper-slide" role="group"><img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_1.png" class="carousel-img"></div>
+
+            <div class="swiper-slide blue-portfolio">
+                <div class="branding-text p-5 ">
+                    <p class="card-text text-white ">Branding</p>
+                    <h5 class="card-title text-white mb-4">Home Decoration</h5>
+                    <hr>
+                </div>
+                <img src="<?php echo get_template_directory_uri(); ?>/images/portfolio_6.png" class="carousel-img">
+            </div>
+            <div class="swiper-slide" role="group"><img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_1.png" class="carousel-img"></div>
+            <div class="swiper-slide" role="group"><img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_2.png" class="carousel-img"></div>
+            <div class="swiper-slide" role="group"><img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_3.png" class="carousel-img"></div>
+            <div class="swiper-slide" role="group"><img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_4.png" class="carousel-img"></div>
+            <div class="swiper-slide" role="group"><img
+                    src="<?php echo get_template_directory_uri(); ?>/images/portfolio_5.png" class="carousel-img"></div>
+
+
+        </div>
+    </div>
+    <div class="mt-5 mb-6 arrow-icons text-center">
         <img class="mx-3 arrow-icon-prev" src="<?php echo get_template_directory_uri(); ?>/images/left_icon.png" alt="">
         <img class="mx-3 arrow-icon-next" src="<?php echo get_template_directory_uri(); ?>/images/right_icon.png"
             alt="">
@@ -136,29 +188,31 @@
 </section>
 
 <!-- Call to action -->
-<div class="container pt-5">
-    <div class="row pt-5 pb-0 pb-md-5 px-lg-5">
-        <div class="col-lg-9 px-4">
-            <h1 class="lh-1 display-6 fw-light mb-3 ">Make It Awesome!</h1>
-            <p class="lh-lg">There's nothing we won't try. Never heard the word impossible. This time there's no
-                stopping us. <br>The year is 1987 and NASA launches the last of Americas deep space probes.
-            </p>
+<section class="cta">
+    <div class="container py-md-5 py-lg-5 py-0">
+        <div class="row pt-0 pt-md-5 pt-lg-5 pb-0 pb-md-5 px-lg-5">
+            <div class="col-lg-9 px-4">
+                <h1 class="lh-1 display-6 fw-light mb-3 ">Make It Awesome!</h1>
+                <p class="lh-lg">There's nothing we won't try. Never heard the word impossible. This time there's no
+                    stopping us. <br>The year is 1987 and NASA launches the last of Americas deep space probes.
+                </p>
 
-        </div>
-        <div class="col-12 col-sm-8 col-lg-3 text-center">
-            <button type="button"
-                class="rounded-pill fs-6 fw-semibold btn btn-outline-primary border-2 px-5 mb-4 py-3 mt-4 ">Hire
-                Me Now!</button>
+            </div>
+            <div class="pb-3 col-12 col-sm-8 col-lg-3 text-center">
+                <button type="button"
+                    class="rounded-pill fs-6 fw-semibold btn btn-outline-primary border-2 px-5 mb-4 py-3 mt-4 ">Hire
+                    Me Now!</button>
+            </div>
         </div>
     </div>
-</div>
+</section>
+
 
 <!-- Feedback -->
-<!-- make it carousel -->
 <section class="landing-page-wrap">
     <div class="container">
 
-        <div class="px-4 py-5 my-5 text-center">
+        <div class="px-4 pt-5 pb-0 py-lg-5 py-md-5 my-md-5 my-md-5 mb-2 text-center">
             <h1 class="display-5 fw-light">What clients<br>Feedback about me</h1>
             <div class="mySwiper1">
                 <div class="swiper-wrapper">
@@ -206,7 +260,7 @@
                     </div>
                 </div>
             </div>
-            <div class="text-center">
+            <div class="text-center arrow-icons">
                 <img class="mx-3 arrow-icon-prev" src="<?php echo get_template_directory_uri(); ?>/images/left_icon.png"
                     alt="">
                 <img class="mx-3 arrow-icon-next"

@@ -13,7 +13,7 @@
 
     <header>
         <div class="container ">
-            <nav class="navbar navbar-expand-md  navbar-light bg-light w-100 m-0 p-lg-0 p-md-0 p-4" role="navigation">
+            <nav class="navbar navbar-expand-md navbar-light bg-light w-100 m-0 p-lg-0 p-md-0 p-4 " role="navigation">
                 <!-- Brand -->
                 <a class="navbar-brand fs-4" href="#">PORTFOLIO</a>
 
@@ -32,7 +32,7 @@
                             'theme_location' => 'top-menu',
                             'depth' => 2,
                             'container' => false,
-                            'menu_class' => 'navbar-nav  m-0 p-0',
+                            'menu_class' => 'navbar-nav hide-mobile-menu m-0 p-0',
                             'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
                             'walker' => new WP_Bootstrap_Navwalker(),
                         )
